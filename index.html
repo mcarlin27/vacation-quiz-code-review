@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Dream Vacation Quiz!</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Dream Vacation Quiz!</h1>
+        <p>Your Dutch Bros order will determine your next dream vacation spot!</p>
+      </div>
+      <form id="quiz">
+        <label for="size">First things first, what size drink do you want?</label>
+        <select id="size">
+          <option value="1">Small. Can't have too much caffeine.</option>
+          <option value="2">Medium, Goldilocks style.</option>
+          <option value="3">Large. I can handle it.</option>
+          <option value="4">XL, because I'm X-TREME!!</option>
+        </select>
+        <br><br>
+        <label for="drink">What kind of drink do you get?</label>
+        <select id="drink">
+          <option value="2">An Americano, because Dutch Bros doesn't serve drip.</option>
+          <option value="3">Something fancy.</option>
+          <option value="4">A freeze, because I'm a child.</option>
+          <option value="1">A classic latte.</option>
+        </select>
+        <br><br>
+        <p><strong>What type of coffee do you prefer</strong></p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="coffee" value="1" checked>
+            Regular
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="coffee" value="2">
+            Decaf
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="coffee" value="3">
+            White Coffee
+          </label>
+        </div>
+        <br>
+        <label for="flavor">What kind of syrup do you get?</label>
+        <select id="flavor">
+          <option value="3">I like to mix and match. Love my hazelnut-toffee-coconut mochas!</option>
+          <option value="1">None.</option>
+          <option value="2">One or two. I usually just get a drink from the menu.</option>
+          <option value="4">All of them!!!1!!1! The sugar rush is better than caffeine.</option>
+        </select>
+        <br><br>
+        <label for="time">What time of day do you drink your coffee?</label>
+        <select id="time">
+          <option value="2">First thing in the morning. Gotta have my fix!</option>
+          <option value="3">On my way to work. Sometimes I get a second cup during my lunch break.</option>
+          <option value="1">I like mine a mid-afternoon pick-me-up, natch!</option>
+          <option value="4">Anytime, anywhere!</option>
+        </select>
+        <br><br>
+        <button type="submit" class="btn btn-default btn-lg">Where should I go?</button>
+      </form>
+      <div id="hawaii">
+        <img src="img/hawaii.jpg" alt="A beach in Hawaii." width="500px">
+        <h2>You should visit <span class="hawaiian">Hawaii</span>! Beautiful beaches, gorgeous scenery, and no snakes!</h2>
+      </div>
+      <div id="ethiopia">
+        <img src="ethiopian-flag.jpg" alt="The Ethiopian flag." width="500px">
+        <h2>You should travel to <span class="ethiopian">Ethiopia</span>! See the Simien mountains, or visit Addis Ababa, the capital city. <span class="clickable">Click here</span> to see a picture of Ethiopia!</h2>
+        <div id="ethiopia-showing">
+          <div id="ethiopia-click"><img src="img/ethiopia.jpg" alt="A picture of a ravine in Ethiopia."></div>
+        </div>
+      </div>
+
+
+    </div>
+  </body>
+</html>
