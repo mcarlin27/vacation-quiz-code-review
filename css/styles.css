@@ -1,3 +1,35 @@
+#hawaii {
+  display: none;
+}
+
+#ethiopia {
+  display: none;
+}
+
+#honduras {
+  display: none;
+}
+
+#vietnam {
+  display: none;
+}
+
+.hawaiian {
+  color: blue;
+}
+
+.ethiopian {
+  color: red;
+}
+
+.honduran {
+  color: green;
+}
+
+.vietnamese {
+  color: yellow;
+}
+
 .clickable {
   cursor: pointer;
   color: #0088cc;
